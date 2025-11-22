@@ -1,0 +1,26 @@
+{
+    "name": "capitan/cruise",
+    "description": "Connect to external interface application services.",
+    "keywords": ["capitan","capitanPHP","framework","PHP","Cruise"],
+    "license": "MIT",
+    "homepage": "https://github.com/capitanPHP/cruise",
+    "version": "0.0.1",
+    "authors": [
+        {
+            "name": "capitan",
+            "email": "capitanphp@outlook.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/capitanPHP/cruise/issues",
+        "source": "https://github.com/capitanPHP/cruise"
+    },
+    "require": {
+        "php": "^8.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "capitan\\cruise\\": "src"
+        }
+    }
+}
